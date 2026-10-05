@@ -137,24 +137,6 @@ AWS_SECRET_NAME = test-secret-manager
 * **Method:** `DELETE`
 * **Response:** Success or error message
 
-## 💻 Deployments
-
-```bash
-    sudo apt update && sudo apt upgrade && sudo apt autoclean && sudo apt autoremove
-    sudo apt install nodejs@latest
-    sudo apt install npm
-    ## for Process management
-    sudo npm install pm2@latest -g 
-
-    ## for mysql
-    sudo apt install mysql-server mysql-client
-    ## for mariadb
-    sudo apt install mariadb-server mariadb-clieant
-
-    cd Node_React_CRUD/backend
-    pm2 start index.js --name="backend-api"
-```
-
 ## 📚 Dependencies
 
 ### Backend
@@ -170,8 +152,11 @@ AWS_SECRET_NAME = test-secret-manager
 * `axios`: Promise-based HTTP client for the browser and Node.js
 * `react-router-dom`: DOM bindings for React Router
 
+## DevOps
+
+
+
 ## 🛠️ Contributing
 
 Contributions are welcome Please feel free to submit a pull request or open an issue if you encounter any problems.
-Appsec and Build Spec are yet to be uploaded
 Thank you #
